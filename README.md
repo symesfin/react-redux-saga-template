@@ -11,7 +11,7 @@ A comprehensive starter kit for rapid application development using React.
 
 2.  **Clone the project**
 
-    `git clone https://github.com/coryhouse/react-slingshot.git`.
+    `git clone https://github.com/Sorub4/react-redux-saga-template.git`.
 
 3.  **Run the setup script**
 
