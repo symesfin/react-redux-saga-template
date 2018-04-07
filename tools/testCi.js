@@ -6,6 +6,7 @@ const args = [
   ...harmonyProxies,
   'node_modules/jest/bin/jest',
   // First two args are always node and the script running, i.e. ['node', './tools/testCi.js', ...]
+  '--config=jest.config.json',
   ...process.argv.slice(2)
 ];
 

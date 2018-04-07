@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-template",
+  "name": "react-redux-saga-template",
   "version": "1.0.0",
   "description": "Starter kit for creating apps with React and Redux",
   "engines": {
@@ -26,12 +26,12 @@
   "author": "Ross Twite",
   "license": "MIT",
   "dependencies": {
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-redux": "5.0.5",
-    "react-router-dom": "4.2.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
     "react-router-redux": "5.0.0-alpha.6",
-    "redux": "3.6.0",
+    "redux": "^3.7.2",
     "redux-saga": "^0.16.0"
   },
   "devDependencies": {
