@@ -12,7 +12,7 @@ function configureStoreProd(initialState) {
   const reactRouterMiddleware = routerMiddleware(history);
   const middlewares = [
     sagaMiddleware,
-    reactRouterMiddleware,
+    reactRouterMiddleware
   ];
 
   const store = createStore(rootReducer, initialState, compose(
@@ -29,7 +29,7 @@ function configureStoreDev(initialState) {
   const reactRouterMiddleware = routerMiddleware(history);
   const middlewares = [
     sagaMiddleware,
-    reactRouterMiddleware,
+    reactRouterMiddleware
   ];
 
   const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose; // add support for Redux dev tools
